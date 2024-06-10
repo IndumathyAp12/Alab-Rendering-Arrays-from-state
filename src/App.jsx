@@ -1,7 +1,7 @@
 import {React, useState } from 'react';
 // import React from 'react';
 import Learner from '../components/Learner';
-import Score from '../components/Score';
+
 import './App.css';
 
 
