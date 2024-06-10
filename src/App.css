@@ -1,15 +1,52 @@
-div {
-  margin: 20px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
 }
 
-h1, h2, h3 {
+h1 {
+  text-align: center;
+  color: #4a90e2;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.learner {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.learner h2 {
+  margin-top: 0;
   color: #333;
 }
 
-p {
-  font-size: 14px;
+.learner p {
   color: #666;
+}
+
+
+.score {
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.score p {
+  margin: 5px 0;
 }
